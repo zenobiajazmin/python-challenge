@@ -9,16 +9,6 @@ Once I understood the assignment I went forward to complete the assignment. The 
 Went to Xpert Learnng Assistant for one part of the code where it was asking how to calculate the amount of votes per candidate and it used the code below, I modified it to understand it with my code. 
 
 Xpert Learning sample:
-Here's a general outline of how you can achieve this in Python:
-
-import csv
-
-# Initialize a dictionary to store the votes for each candidate
-candidate_votes = {}
-
-# Read the election data file
-with open('election_data.csv', 'r') as file:
-    reader = csv.DictReader(file)
 
     # Iterate through each row in the data
     for row in reader:
